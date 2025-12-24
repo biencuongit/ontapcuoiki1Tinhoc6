@@ -11,3 +11,10 @@
     }
   ]
 }
+```
+
+### 6. **THIẾU FILE `.env.local`** (cho local development)
+
+Tạo file `.env.local`:
+```
+GEMINI_API_KEY=your_api_key_here
