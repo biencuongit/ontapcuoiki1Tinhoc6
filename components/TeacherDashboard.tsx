@@ -64,7 +64,7 @@ const TeacherDashboard: React.FC<TeacherDashboardProps> = ({ bank, attempts, onU
                     <p className="text-5xl font-black text-emerald-500">{avgScore.toFixed(1)}</p>
                 </div>
                 <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-50 text-center">
-                    <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Tỉ lệ đạt (≥ 6.0)</p>
+                    <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">(&gt;= 6.0)</p>
                     <p className="text-5xl font-black text-orange-500">{passRate.toFixed(0)}%</p>
                 </div>
             </div>
